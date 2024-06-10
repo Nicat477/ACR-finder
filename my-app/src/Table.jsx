@@ -1,6 +1,11 @@
 
+import { Data } from './data';
+import { useState } from 'react';
 const Table = ({ data }) => {
+  
     return (
+      
+      
       <table>
         <thead>
           <tr>
@@ -8,17 +13,19 @@ const Table = ({ data }) => {
             <th>Qısaltma</th>
             <th>Açıqlaması</th>
             <th>Missiya</th>
-            <button>Search</button>
+            
           </tr>
           </thead>
           <tbody>
-          {data.map((item) => (
+          {data.map((item,index) => (
             <tr key={item.id}>
-              <td>{item.id}</td>
+              <td>{index+1}</td>
               
-              <td><input type='text' placeholder="Write"/></td>
-              <td>{item.last_name}</td>
-              <td>{item.email}</td>
+              <td>
+              {item.akronim}
+              </td>
+              <td>{item.aciqlama}</td>
+              <td>{item.missiya}</td>
               
             </tr>
           ))}

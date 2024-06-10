@@ -28,5 +28,23 @@ export const Data=[
         "akronim":"KPT",
         "aciqlama":"kapital",
         "missiya":"hdhefefdkejf"
+    },
+    {
+        "id":6,
+        "akronim":"PRTU",
+        "aciqlama":"kapitddhdl",
+        "missiya":"hdhefefdkejf"
+    },
+    {
+        "id":7,
+        "akronim":"HJAS",
+        "aciqlama":"hghjapital",
+        "missiya":"hdhefefdkejf"
+    },
+    {
+        "id":8,
+        "akronim":"ICUY",
+        "aciqlama":"ncndncdc",
+        "missiya":"hdhefefdkejf"
     }
 ]

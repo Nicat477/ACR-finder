@@ -46,12 +46,48 @@ th, td,input ,button{
   padding: 12px;
   border: 1px solid #ddd;
   text-align: left;
+  font-size: 20px;
 }
 
 th,input {
   background-color: #f4f4f4;
 }
-
+th{
+  background-color: rebeccapurple;
+}
 tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: gray;
+}
+.input-part{
+  display: flex;
+  justify-content: center;
+}
+.input-part input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style the buttons */
+.input-part button {
+  background-color: black;
+  color: red;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center; /* Center align the content */
+  padding: 5px 12px; /* Add padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the paragraph inside the buttons */
+.error{
+  margin-top: 100px;
+  font-size: 30px;
+  color: red;
+}
+.header-logo{
+  height: 180px;
 }
