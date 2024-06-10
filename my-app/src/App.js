@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './App.css';
 import { Data } from './data';
 import Table from './Table';
-import logo from './images.png';
+import logo from './azercosmos-logo-0.png';
 function App() {
   const [query,setQuery]=useState("");
   const search=(data)=>{
